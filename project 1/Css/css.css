@@ -1,0 +1,279 @@
+@charset "utf-8";
+/* CSS Document */
+/*staet global*/
+*{box-sizing:border-box;}
+
+body{padding:0px;
+	 margin:0px;}
+
+.content{width:70%;
+		margin:auto;
+		}
+
+ul{list-style:none;
+	padding:0px;
+	margin:0px;}
+
+.clear{clear:both;}
+/*end global*/
+
+
+		/********************************start nav****************************************/
+
+.nav{color:#fff;
+	 position:relative;
+	 font-size:24px;
+	 display:block;
+	 z-index:3;}
+
+
+.logo{width:50%;
+	  float:left;
+	  margin-top:25px;
+	  text-transform:uppercase;}
+
+
+.logo p{margin:0px;}
+
+.link{width:50%;
+	  float:left;
+	  margin-top:25px;
+	  padding-left:80px;}
+
+
+.link ul li{display:inline-block;
+			margin-right:20px;
+			text-transform:capitalize;}
+
+.link ul li a{text-decoration:none;
+				color:#B9B3B3;}
+				
+.active a{color:#fff!important;
+		  border-bottom:2px solid #fff;}
+		  			
+.link ul li:hover{border-bottom:2px solid #0f0;
+		                  color:#0f0;}
+						  
+
+		/********************************************end nav*****************************/
+
+
+        /******************************************start header**************************/
+
+
+.header{
+		position:absolute;
+	    top:0px;
+		left:0px;
+		bottom:0px;
+		right:0px;
+		background-image:url(../Image/Mirannda-Kkkerr.jpg);
+        background-attachment: fixed;
+		z-index:-1;
+		width:100%;
+	    height:100%;}
+		
+		
+.header-black{background-color: rgba(0,0,0,0.6);
+			 position:absolute;
+			 top:0px;
+			 left:0px;
+			 width:100%;
+			 height:100%;
+			 }
+			 
+			 
+.bx-wrapper{background:none;
+			box-shadow:none;
+			border:none;
+			margin:0;
+			height:100%!important;
+			width:100%;
+			z-index:1;}
+						
+.bxslider .img{text-align:center;}
+			   
+			   
+.bx-viewport{height:100%!important;
+			 width:100%;}
+			
+.text_slid
+{
+    font-size: 80px;
+    text-transform: capitalize;
+    margin: 150px 77px 0 0;
+    float: right;
+    width: 50%;
+}
+
+.text_slid P
+{
+        text-align: center;
+
+}
+/*.bx-viewport,.bxslider,.bxslider .img,.bxslider .img img{width:100%;
+				  										 }
+           /************************************end header*********************************/
+		   
+		   
+		   /******************************************start serves**************************/
+		   
+		   
+		   
+#serves{margin-top:50px;}	
+
+#serves img{
+    width:100%;
+    height: 600px;
+}
+
+#serves p{
+    margin-top: 30px;
+    overflow: hidden;
+    height: 550px;
+    text-align: justify;
+}
+
+
+
+		   
+	    /************************************end serves*********************************/
+		   
+.Statistics{color:#bbb;
+			background:url(../Image/Statistics.jpg)no-repeat center center fixed;
+			background-size:cover;
+            margin-top: 40PX;}
+
+.Statistics h1{margin-top:40px;
+			   margin-bottom:60px;}
+			   
+.Statistics .over{min-height:420px;
+                  background-color: rgba(3,3,3,0.7);
+                  background-size: cover;
+                  width: 100%;
+                  padding-bottom: 20px;}
+
+.Statistics .stats{margin-bottom:50px;
+					transition:all 0.8s ease-in-out;}
+					
+.Statistics .stats:hover{color:#fff}					
+.Statistics .stats h1{margin:20px;
+					  font-size:60px}
+
+.Statistics .stats h3{font-size:20px}	
+
+
+		 /************************************start we*********************************/   
+
+#art{margin-top:50px;}
+		   
+#art .content h3{margin-bottom:10px;
+				 letter-spacing:2px}
+
+#art .container
+{
+    padding-left: 0;
+}
+.list-we li{display:inline-block;
+			padding:5px;
+			margin:15px 10px 20px 0;
+			border:2px solid #CCC;
+			color:#666;
+			border-radius:3px;
+			cursor:pointer;}		   
+		   
+#art .active{background-color:#6CF;
+		color:#fff;
+		border:2px solid #6CF;}		   
+		   
+		   
+
+
+.galary .mix{ width:31.333%;
+				display: inline-block;
+				height:200px;
+				position:relative;}		   
+
+
+.galary .mix img{ width:100%;
+					height:100%;}
+		   
+		   
+.galary .mix:nth-child(2),		   
+.galary .mix:nth-child(5),
+.galary .mix:nth-child(8){margin:0 2.5% 15px 2.5%;}		   
+		   
+		   
+
+					   
+					   		   
+.galary .mix:hover .over{display:block}
+
+		 /************************************end we*********************************/   
+
+.Tell-Fell{background:url(../Image/slider%201.jpg)no-repeat center center fixed;
+							background-size:cover;
+							width:100%;}
+							
+.Tell-Fell .over{padding:40px 0;
+				 color:#fff;
+				 background-color:rgba(3,3,3,0.8);}
+.Tell-Fell h4{margin-bottom:50px}
+.Tell-Fell .over .form-control{width:100% !important;
+								background-color:rgba(82,78,78,0.9);
+								border:none;
+								color:#fff}
+
+.Tell-Fell .over textarea{height:108px}
+
+
+/**************************************************/
+
+footer{padding:20px 0;
+		height:300px;
+		background-color:#232323;
+		color:#979797;
+		margin-top:60px;}
+		
+				
+.col{width:25%;
+	 float:left;}
+	 
+.col i{border:1px solid rgba(153,153,153,1);
+		padding:5px;}
+
+.col span{display: inline-block;
+		  color: #CCC;
+		  border: 1px solid #979797;
+		  padding: 10px 12px;
+		  margin:0 0 10px 8px;}
+
+	   
+.col h4{margin-left:22px;
+		color:#fff;}		   
+		   
+.col img{float:left;
+        margin-right: 10px;}
+
+.col h5{font-weight: normal;
+		margin:0 0 10px 0 ;}	   
+	   
+.col div span{margin:0;
+			  border:none;
+			  padding: 0px 10px 22px;}	   
+	   
+.col ul li{padding:15px;
+		   border-bottom:1px solid  #999;
+		   color:#fff}	   
+	   
+	   
+	   
+
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
