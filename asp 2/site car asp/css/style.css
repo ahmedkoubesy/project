@@ -1,0 +1,401 @@
+body
+{
+	color:#E4E4E4;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top:30px;
+	
+		
+}
+
+a
+{
+	color:#E4E4E4;
+}
+.container
+{
+	width: 75%
+}
+.line
+{
+	line-height: 2;
+}
+/************ nav *****************/
+
+nav .call-us
+{
+	padding: 0 15px;
+}
+nav .call-us a
+{
+	border: 1px solid #E4E4E4;
+	padding: 10px;
+	margin-right: 80px;
+}
+
+nav .call-us i
+{
+	font-size: 20px;
+	margin-left: 25px;
+	-webkit-font:normal normal normal 19px/1.3em jura,sans-serif;
+}
+
+
+nav .menu_bar h1
+{
+	display: inline-block;
+	width:361px;
+	font-size: 40px;
+	font-weight: bold;
+	padding-left:15px;
+}
+
+nav .menu_bar h1 a:hover
+{
+	text-decoration: none;
+
+}
+nav .menu_bar h1 span
+{
+	color:red;
+}
+nav .menu_bar ul
+{
+	display:inline-block;
+	width:68%;
+	font-size: 14px
+	
+}
+nav .menu_bar ul li
+{
+	display: inline;
+	margin-left: 15px;
+}
+
+nav .menu_bar ul li::after
+{
+	content: "|";
+	margin-left: 15px;
+	font-size: 24px
+}
+
+
+/************ slider *****************/
+
+header
+{
+	margin-top: 40px;
+}
+
+header h1
+{
+	margin-top: 0;
+	position:absolute;
+	top: 0;
+	z-index:9;
+	font-size: 49px;
+	text-transform: capitalize;
+	padding: 20px 20px;
+	background-color: rgba(0,0,0,0.3)
+	
+}
+
+
+header a
+{
+	background-color:rgba(148,0,0,1);
+	font-size: 20px;
+	padding: 10px;
+	position: absolute;
+	bottom: 30px;
+	left:40px;
+	display: inline-block;
+	width: 200px;
+	border-radius: 8px;
+	z-index: 9;	
+}
+
+header a:hover
+{
+	background-color:red;
+	color:#E4E4E4;
+	text-decoration: none;
+}
+
+header .carousel-inner>.item>img, .carousel-inner>.item>a>img
+{
+    width:100%!important;
+}
+/************ slider *****************/
+
+
+.cars td
+{
+	padding:30px 15px 0;
+    width:25%;
+}
+
+.cars .car{
+    height:177px;
+}
+
+.cars h1
+{
+	display: inline-block;
+	font-size: 40px;
+	margin-top: 40px;
+		
+}
+
+.cars hr
+{
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-left: 30px;
+		width:73%;
+}
+
+.cars .filter
+{
+    margin-top:30px;
+    margin-bottom: 10px;
+}
+.cars .filter .form-control
+{
+    width:10%;
+    display:inline-block;
+    background-color:#e4e4e4;
+    color:#000;
+    border:none;
+    padding:0;
+}
+
+.cars .filter .form-control::placeholder
+{
+    color:#000;
+}
+.cars .filter .btn-primary
+{
+    width:100px;
+    margin-left:23px;
+    background-color: rgba(51, 51, 51, 1);
+    border:none;
+}
+
+.cars .filter .btn-primary:hover{
+    color:rgba(51, 51, 51, 1);
+    background-color:#e4e4e4;
+}
+.cars .filter span
+{
+    font-size:26px;
+    margin:0 15px;
+    color:#e4e4e4;
+}
+.cars .row
+{
+	margin-top: 20px;
+}
+
+.cars img
+{
+	width: 100%;
+	margin-bottom: 8px;
+    height:100%;
+}
+
+.cars h4
+{
+	margin-bottom: 18px;
+}
+
+.cars h5
+{
+	margin: 4px 0;
+}
+
+.cars span
+{
+	color:#0f0;
+}
+
+.detalis
+{
+	padding: 10px!important;
+}
+
+/*****************************/
+
+footer
+{
+	padding: 1px;
+	margin-top: 55px;
+}
+
+
+/******************************/
+/******************************/
+/******************************/
+
+.inventory img
+{
+	width: 100%;
+}
+.inventory h1
+{
+	font-size: 50px;
+}
+
+.inventory p.h3
+{
+	margin-bottom: 60px;
+}
+
+
+.item_car
+{
+	margin-top: 10px;
+}
+
+.item_car span
+{
+	color:red
+}
+.border_right
+{
+	border-right: 1px solid #E4E4E4;
+	padding-right: 0;
+}
+.item_car div:last-child
+{
+	padding-left: 35px;
+	padding-right:25px;
+}
+.item_car div:last-child .h2:last-child, .detalis
+{
+	border: 1px solid #E4E4E4;
+	padding: 5px;
+	transition: all 0.4s;
+}
+
+.item_car div:last-child .h2:last-child:hover, .detalis a:hover
+{
+	color:#428bca;
+	border-color: #428bca;
+	text-decoration: none;
+}
+
+
+.inventory .container>.row
+{
+	margin-bottom: 50px;
+}
+
+
+
+
+/******************************/
+/******************************/
+/******************************/
+
+.finance /* gloable*/
+{
+	color: #E4E4E4;
+	margin-top: 40px;
+}
+.finance p/* gloable*/
+{
+	font-size: 17px;
+}
+
+.financing h1
+{
+	margin-bottom: 30px;
+	margin-top: 40px
+}
+.financing h1 span
+{
+	border-bottom: 5px solid red;
+}
+
+
+
+.items
+{
+	margin-top: 40px;
+}
+
+.items h1
+{
+	margin-bottom: 0;
+}
+.items h1 span
+{
+	color:red;
+	font-size: 36px;
+}
+
+  /******************************/
+ /******************************/
+/******************************/
+
+.about
+{
+	color:#E4E4E4!important;
+}
+.about img
+{
+	width: 100%
+}
+
+
+
+  /******************************/
+ /******************************/
+/******************************/
+
+.contact p
+{
+	margin: 0
+}
+
+.contact h1
+{
+	margin-top: 30px;
+}
+.contact .form-control
+{
+	border-radius: 0;
+	margin-bottom: 10px;
+	background-color: rgba(228, 228, 228, 0.13);
+	border: 0px solid rgba(0, 0, 0, 1);
+}
+
+.side-form
+{
+	margin-top: 35px;
+}
+
+.contact .btn-danger
+{
+	margin-left: 700px;
+}
+
+.map
+{
+	margin-top: 20px
+}
+.x
+{
+	    font: normal normal normal 15px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    color: #E4E4E4;
+}
+
+
+
+
+
+
+
+
